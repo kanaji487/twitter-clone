@@ -58,7 +58,7 @@ const Modal = ({ isOpen, onClose, onSubmit, title, body, footer, actionLabel, di
                         {/* footer */}
                         <div className="flex flex-col gap-2 p-10">
                             <Button 
-                                disable={disabled}
+                                disabled={disabled}
                                 label={actionLabel}
                                 secondary
                                 fullWidth
